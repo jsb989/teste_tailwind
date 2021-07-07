@@ -7,7 +7,7 @@
       py-4
       px-6
       bg-white
-      border-b-4 border-indigo-600
+      border-b-4 border-blue-900
     "
   >
     <div class="flex items-center">
@@ -45,7 +45,7 @@
         </span>
 
         <input
-          class="w-32 sm:w-64 rounded-md pl-10 pr-4 focus:border-indigo-600"
+          class="w-32 sm:w-64 rounded-md pl-10 pr-4 focus:border-blue-900"
           type="text"
           placeholder="Search"
         />
@@ -119,10 +119,10 @@
               px-4
               py-2
               text-sm text-gray-700
-              hover:bg-indigo-600 hover:text-white
+              hover:bg-blue-900 hover:text-white
             "
           >
-            Profile
+            Perfil
           </a>
           <a
             href="#"
@@ -131,10 +131,10 @@
               px-4
               py-2
               text-sm text-gray-700
-              hover:bg-indigo-600 hover:text-white
+              hover:bg-blue-900 hover:text-white
             "
           >
-            Products
+            Configurações
           </a>
           <router-link
             to="/"
@@ -143,7 +143,7 @@
               px-4
               py-2
               text-sm text-gray-700
-              hover:bg-indigo-600 hover:text-white
+              hover:bg-blue-900 hover:text-white
             "
           >
             Log out

@@ -27,7 +27,7 @@
         transition
         duration-300
         transform
-        bg-gray-900
+        bg-blue-900
         overflow-y-auto
         lg:translate-x-0 lg:static lg:inset-0
       "
@@ -85,10 +85,10 @@ export default defineComponent({
   setup() {
     const { isOpen } = useSidebar();
     const activeClass = ref(
-      "bg-gray-600 bg-opacity-25 text-gray-100 border-gray-100"
+      "bg-gray-900 bg-opacity-50 text-gray-50 border-gray-100"
     );
     const inactiveClass = ref(
-      "border-gray-900 text-gray-500 hover:bg-gray-600 hover:bg-opacity-25 hover:text-gray-100"
+      "border-gray-900 text-gray-50 hover:bg-gray-600 hover:bg-opacity-25 hover:text-gray-100"
     );
     return {
       isOpen,

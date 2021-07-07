@@ -12,7 +12,7 @@
           <span class="text-gray-700 text-sm">Email</span>
           <input
             type="email"
-            class="mt-1 block w-full rounded-md focus:border-indigo-600"
+            class="mt-1 block w-full rounded-lg focus:border-blue-600"
             v-model="email"
           />
         </label>
@@ -21,7 +21,7 @@
           <span class="text-gray-700 text-sm">Password</span>
           <input
             type="password"
-            class="mt-1 block w-full rounded-md focus:border-indigo-600"
+            class="mt-1 block w-full rounded-lg focus:border-blue-600"
             v-model="password"
           />
         </label>
@@ -29,17 +29,18 @@
         <div class="flex justify-between items-center mt-4">
           <div>
             <label class="inline-flex items-center">
-              <input type="checkbox" class="form-checkbox text-indigo-600" />
-              <span class="mx-2 text-gray-600 text-sm">Remember me</span>
+              <input type="checkbox" class="form-checkbox text-blue-600" />
+              <span class="mx-2 text-gray-600 text-sm">Lembrar</span>
             </label>
           </div>
 
           <div>
             <a
-              class="block text-sm fontme text-indigo-700 hover:underline"
+              class="block text-sm fontme text-blue-700 hover:underline"
               href="#"
-              >Forgot your password?</a
             >
+              Esqueceu sua senha?
+            </a>
           </div>
         </div>
 
@@ -50,14 +51,14 @@
               py-2
               px-4
               text-center
-              bg-indigo-600
+              bg-blue-600
               rounded-md
               w-full
               text-white text-sm
-              hover:bg-indigo-500
+              hover:bg-blue-500
             "
           >
-            Sign in
+            Logar
           </button>
         </div>
       </form>

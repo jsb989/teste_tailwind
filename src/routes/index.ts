@@ -11,10 +11,10 @@ const routes: Array<RouteRecordRaw> = [
     path: "/dashboard",
     name: "Home",
     component: Dashboard,
-    redirect: "dashboard",
+    redirect: "/dashboard",
     children: [
       {
-        path: "dashboard",
+        path: "/dashboard",
         name: "Dashboard",
         component: Home,
       },
@@ -23,6 +23,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
     name: "Landing",
+    redirect: "/login",
     component: Auth,
     children: [
       {
